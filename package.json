@@ -2,15 +2,18 @@
   "name": "tsbug",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
-    "test": "npm test --workspaces"
+    "test": "tsc --noEmit"
   },
   "author": "Olivier Lalonde <olalonde@gmail.com>",
   "license": "Unlicense",
-  "workspaces": [
-    "./apps/tsbug"
-  ],
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "@types/node": "^20.6.0",
+    "typescript": "5.2"
+  },
+  "dependencies": {
+    "@types/validator": "^13.11.1",
+    "validator": "^13.11.0"
   }
 }
