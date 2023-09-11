@@ -1,0 +1,20 @@
+{
+  "name": "tsbug",
+  "description": "",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/validator": "^13.11.1",
+    "@types/node": "^20.6.0"
+  }
+}

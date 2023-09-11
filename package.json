@@ -1,0 +1,16 @@
+{
+  "name": "tsbug",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "npm test --workspaces"
+  },
+  "author": "Olivier Lalonde <olalonde@gmail.com>",
+  "license": "Unlicense",
+  "workspaces": [
+    "./apps/tsbug"
+  ],
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
